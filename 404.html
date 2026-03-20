@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Page not found" />
+    <title>404 | Samuel Lefcourt</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true"></div>
+          <div>
+            <div class="brand-name">Samuel Lefcourt</div>
+            <div class="brand-tagline">Thesis Defense</div>
+          </div>
+        </div>
+        <nav class="top-nav" aria-label="Primary navigation">
+          <a href="./#thesis">Thesis</a>
+          <a href="./#publications">Publications</a>
+          <a href="./#teaching">Teaching</a>
+          <a href="./#labs">Labs</a>
+          <a href="./#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="section">
+        <div class="container">
+          <div class="card card-highlight">
+            <h2 class="section-title" style="margin-top:0">404</h2>
+            <p class="muted">The page you requested does not exist. Return to the homepage:</p>
+            <p>
+              <a class="button" href="./">Home</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="muted">Copyright © <span id="year"></span> Samuel Lefcourt</div>
+        <div class="muted">Built for GitHub Pages</div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
+
